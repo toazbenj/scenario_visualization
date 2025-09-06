@@ -1,8 +1,8 @@
 {
-    "dataset-fn": "/home/bentoaz/scenario_visualization/data/comparison/passing_difference.csv",
-    "Browse": "/home/bentoaz/scenario_visualization/data/comparison/passing_difference.csv",
+    "dataset-fn": "C:/Users/toazb/Documents/GitHub/scenario_visualization/cost_stats_vec_truncated.feather",
+    "Browse": "C:/Users/toazb/Documents/GitHub/scenario_visualization/cost_stats_vec_truncated.feather",
     "remove-extra-headers": true,
-    "label": "Passing Percentage Increase",
+    "label": "action1",
     "cb-dt": true,
     "cb-rf": true,
     "cb-gbr": true,
@@ -16,12 +16,12 @@
     "cb-average-similar-points-lattice": false,
     "cb-invert-color-scale-lattice": false,
     "lattice-rasterized": false,
-    "feat1": "Theta A",
-    "feat2": "Theta B",
-    "feat3": "Theta C",
-    "3d-cmap": "brg_r",
+    "feat1": "",
+    "feat2": "",
+    "feat3": "",
+    "3d-cmap": "gist_heat",
     "cb-average-similar-points": false,
-    "cb-invert-color-scale": true,
+    "cb-invert-color-scale": false,
     "1": "@article{Goss2024Dec,\n\tauthor = {Goss, Quentin and Pate, Williams Clay and {\\ifmmode\\dot{I}\\else\\.{I}\fi}lhan Akba{\\ifmmode\\mbox{\\c{s}}\\else\\c{s}\fi}, Mustafa},\n\ttitle = {{An Integrated Framework for Scenario-Based Safety Validation and Explainability of Autonomous Vehicles}},\n\tjournal = {ACM J. Auton. Transport. Syst.},\n\tyear = {2024},\n\tmonth = dec,\n\tpublisher = {Association for Computing Machinery},\n\tdoi = {10.1145/3746286}\n}",
-    "2": "tab-3d"
+    "2": "tab-xai"
 }
