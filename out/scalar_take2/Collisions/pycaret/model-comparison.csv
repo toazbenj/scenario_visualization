@@ -1,0 +1,5 @@
+Model,MAE,MSE,RMSE,R2,RMSLE,MAPE,TT (Sec)
+Decision Tree Regressor,0.0,0.0,0.0,1.0,0.0,,0.299
+Random Forest Regressor,0.0,0.0,0.0,1.0,0.0,,0.252
+Gradient Boosting Regressor,0.0,0.0,0.0,1.0,0.0,,0.159
+Extreme Gradient Boosting,0.0,0.0,0.0,1.0,0.0,,0.01

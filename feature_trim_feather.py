@@ -28,8 +28,8 @@ def keep_columns(input_file, output_file, drop):
         print(f"Error: {e}")
 
 # Example usage
-input_csv = "c:\\Users\\toazb\Documents\\GitHub\\race_simulation\\data\\cost_stats_vec.feather"
-output_csv = "cost_stats_vec_truncated.feather"
+input_csv = "c:\\Users\\toazb\Documents\\GitHub\\race_simulation\\data\\race_stats_vec.feather"
+output_csv = "race_stats_vec_truncated.feather"
 # columns_to_keep = ["Out of Bounds P2","Collisions", "Passes P2",
 #                    'Spawn distance_x', 'Spawn distance_y'] 
 
