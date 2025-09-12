@@ -8367,3 +8367,547 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2025-09-11 13:23:31,294:INFO:Random Forest Regressor Imported successfully
 2025-09-11 13:23:31,294:INFO:Starting cross validation
 2025-09-11 13:23:31,295:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-09-11 20:33:51,495:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-11 20:33:51,496:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-11 20:33:51,496:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-11 20:33:51,496:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-11 20:34:27,499:WARNING:/home/bentoaz/scenario_visualization/scenario-visualization-toolkit-v1.0.4-dark/gui.py:488: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  val = df.iloc[i][0]
+
+2025-09-11 20:34:50,067:INFO:PyCaret RegressionExperiment
+2025-09-11 20:34:50,067:INFO:Logging name: reg-default-name
+2025-09-11 20:34:50,067:INFO:ML Usecase: MLUsecase.REGRESSION
+2025-09-11 20:34:50,067:INFO:version 3.3.2
+2025-09-11 20:34:50,067:INFO:Initializing setup()
+2025-09-11 20:34:50,067:INFO:self.USI: 0995
+2025-09-11 20:34:50,067:INFO:self._variable_keys: {'y_test', 'logging_param', 'USI', 'gpu_n_jobs_param', 'X', 'data', 'fold_groups_param', 'gpu_param', 'idx', 'n_jobs_param', '_ml_usecase', 'transform_target_param', 'fold_generator', 'exp_name_log', 'y', 'seed', '_available_plots', 'X_train', 'y_train', 'fold_shuffle_param', 'log_plots_param', 'html_param', 'pipeline', 'exp_id', 'X_test', 'memory', 'target_param'}
+2025-09-11 20:34:50,067:INFO:Checking environment
+2025-09-11 20:34:50,067:INFO:python_version: 3.10.12
+2025-09-11 20:34:50,067:INFO:python_build: ('main', 'Aug 15 2025 14:32:43')
+2025-09-11 20:34:50,067:INFO:machine: x86_64
+2025-09-11 20:34:50,069:INFO:platform: Linux-6.8.0-65-generic-x86_64-with-glibc2.35
+2025-09-11 20:34:50,069:INFO:Memory: svmem(total=16406454272, available=11197698048, percent=31.7, used=4542750720, free=6671605760, active=5660778496, inactive=2611605504, buffers=384675840, cached=4807421952, shared=314941440, slab=766738432)
+2025-09-11 20:34:50,070:INFO:Physical Core: 12
+2025-09-11 20:34:50,070:INFO:Logical Core: 16
+2025-09-11 20:34:50,070:INFO:Checking libraries
+2025-09-11 20:34:50,070:INFO:System:
+2025-09-11 20:34:50,070:INFO:    python: 3.10.12 (main, Aug 15 2025, 14:32:43) [GCC 11.4.0]
+2025-09-11 20:34:50,070:INFO:executable: /bin/python3
+2025-09-11 20:34:50,070:INFO:   machine: Linux-6.8.0-65-generic-x86_64-with-glibc2.35
+2025-09-11 20:34:50,070:INFO:PyCaret required dependencies:
+2025-09-11 20:34:50,114:INFO:                 pip: 22.0.2
+2025-09-11 20:34:50,114:INFO:          setuptools: 59.6.0
+2025-09-11 20:34:50,114:INFO:             pycaret: 3.3.2
+2025-09-11 20:34:50,114:INFO:             IPython: 8.37.0
+2025-09-11 20:34:50,114:INFO:          ipywidgets: 8.1.7
+2025-09-11 20:34:50,114:INFO:                tqdm: 4.66.1
+2025-09-11 20:34:50,114:INFO:               numpy: 1.21.5
+2025-09-11 20:34:50,114:INFO:              pandas: 1.3.5
+2025-09-11 20:34:50,114:INFO:              jinja2: 3.0.3
+2025-09-11 20:34:50,114:INFO:               scipy: 1.8.0
+2025-09-11 20:34:50,114:INFO:              joblib: 1.3.2
+2025-09-11 20:34:50,114:INFO:             sklearn: 1.4.2
+2025-09-11 20:34:50,114:INFO:                pyod: 2.0.5
+2025-09-11 20:34:50,114:INFO:            imblearn: 0.13.0
+2025-09-11 20:34:50,114:INFO:   category_encoders: 2.7.0
+2025-09-11 20:34:50,114:INFO:            lightgbm: 4.6.0
+2025-09-11 20:34:50,114:INFO:               numba: 0.55.1
+2025-09-11 20:34:50,114:INFO:            requests: 2.25.1
+2025-09-11 20:34:50,114:INFO:          matplotlib: 3.5.1
+2025-09-11 20:34:50,114:INFO:          scikitplot: 0.3.7
+2025-09-11 20:34:50,114:INFO:         yellowbrick: 1.5
+2025-09-11 20:34:50,114:INFO:              plotly: 6.2.0
+2025-09-11 20:34:50,114:INFO:    plotly-resampler: Not installed
+2025-09-11 20:34:50,114:INFO:             kaleido: 1.0.0
+2025-09-11 20:34:50,114:INFO:           schemdraw: 0.15
+2025-09-11 20:34:50,114:INFO:         statsmodels: 0.14.4
+2025-09-11 20:34:50,114:INFO:              sktime: 0.26.0
+2025-09-11 20:34:50,114:INFO:               tbats: 1.1.3
+2025-09-11 20:34:50,114:INFO:            pmdarima: 2.0.4
+2025-09-11 20:34:50,114:INFO:              psutil: 5.9.0
+2025-09-11 20:34:50,114:INFO:          markupsafe: 2.0.1
+2025-09-11 20:34:50,114:INFO:             pickle5: Not installed
+2025-09-11 20:34:50,114:INFO:         cloudpickle: 1.6.0
+2025-09-11 20:34:50,114:INFO:         deprecation: 2.1.0
+2025-09-11 20:34:50,114:INFO:              xxhash: 3.5.0
+2025-09-11 20:34:50,114:INFO:           wurlitzer: 3.1.1
+2025-09-11 20:34:50,114:INFO:PyCaret optional dependencies:
+2025-09-11 20:34:50,161:INFO:                shap: 0.48.0
+2025-09-11 20:34:50,161:INFO:           interpret: Not installed
+2025-09-11 20:34:50,161:INFO:                umap: Not installed
+2025-09-11 20:34:50,161:INFO:     ydata_profiling: Not installed
+2025-09-11 20:34:50,161:INFO:  explainerdashboard: Not installed
+2025-09-11 20:34:50,161:INFO:             autoviz: Not installed
+2025-09-11 20:34:50,161:INFO:           fairlearn: Not installed
+2025-09-11 20:34:50,161:INFO:          deepchecks: Not installed
+2025-09-11 20:34:50,161:INFO:             xgboost: 3.0.2
+2025-09-11 20:34:50,161:INFO:            catboost: Not installed
+2025-09-11 20:34:50,161:INFO:              kmodes: Not installed
+2025-09-11 20:34:50,161:INFO:             mlxtend: Not installed
+2025-09-11 20:34:50,161:INFO:       statsforecast: Not installed
+2025-09-11 20:34:50,161:INFO:        tune_sklearn: Not installed
+2025-09-11 20:34:50,161:INFO:                 ray: Not installed
+2025-09-11 20:34:50,161:INFO:            hyperopt: Not installed
+2025-09-11 20:34:50,161:INFO:              optuna: Not installed
+2025-09-11 20:34:50,161:INFO:               skopt: Not installed
+2025-09-11 20:34:50,161:INFO:              mlflow: Not installed
+2025-09-11 20:34:50,161:INFO:              gradio: Not installed
+2025-09-11 20:34:50,161:INFO:             fastapi: Not installed
+2025-09-11 20:34:50,161:INFO:             uvicorn: Not installed
+2025-09-11 20:34:50,161:INFO:              m2cgen: Not installed
+2025-09-11 20:34:50,161:INFO:           evidently: Not installed
+2025-09-11 20:34:50,161:INFO:               fugue: Not installed
+2025-09-11 20:34:50,161:INFO:           streamlit: Not installed
+2025-09-11 20:34:50,161:INFO:             prophet: Not installed
+2025-09-11 20:34:50,161:INFO:None
+2025-09-11 20:34:50,161:INFO:Set up data.
+2025-09-11 20:34:51,099:INFO:Set up folding strategy.
+2025-09-11 20:34:51,099:INFO:Set up train/test split.
+2025-09-11 20:34:51,714:INFO:Set up index.
+2025-09-11 20:34:51,725:INFO:Assigning column types.
+2025-09-11 20:34:52,194:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2025-09-11 20:34:52,194:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2025-09-11 20:34:52,196:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2025-09-11 20:34:52,198:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-09-11 20:34:52,532:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-11 20:34:52,549:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-09-11 20:34:52,549:INFO:Soft dependency imported: xgboost: 3.0.2
+2025-09-11 20:34:52,550:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-11 20:34:52,550:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2025-09-11 20:34:52,552:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2025-09-11 20:34:52,554:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-09-11 20:34:52,886:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-11 20:34:52,904:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-09-11 20:34:52,904:INFO:Soft dependency imported: xgboost: 3.0.2
+2025-09-11 20:34:52,905:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-11 20:34:52,905:INFO:Engine successfully changes for model 'lasso' to 'sklearn'.
+2025-09-11 20:34:52,907:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2025-09-11 20:34:52,909:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-09-11 20:34:53,250:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-11 20:34:53,269:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-09-11 20:34:53,269:INFO:Soft dependency imported: xgboost: 3.0.2
+2025-09-11 20:34:53,270:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-11 20:34:53,272:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2025-09-11 20:34:53,274:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-09-11 20:34:53,657:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-11 20:34:53,676:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-09-11 20:34:53,676:INFO:Soft dependency imported: xgboost: 3.0.2
+2025-09-11 20:34:53,677:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-11 20:34:53,678:INFO:Engine successfully changes for model 'ridge' to 'sklearn'.
+2025-09-11 20:34:53,681:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-09-11 20:34:54,013:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-11 20:34:54,031:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-09-11 20:34:54,031:INFO:Soft dependency imported: xgboost: 3.0.2
+2025-09-11 20:34:54,032:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-11 20:34:54,036:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2025-09-11 20:34:54,364:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-11 20:34:54,381:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-09-11 20:34:54,382:INFO:Soft dependency imported: xgboost: 3.0.2
+2025-09-11 20:34:54,383:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-11 20:34:54,383:INFO:Engine successfully changes for model 'en' to 'sklearn'.
+2025-09-11 20:34:54,714:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-11 20:34:54,731:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-09-11 20:34:54,732:INFO:Soft dependency imported: xgboost: 3.0.2
+2025-09-11 20:34:54,733:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-11 20:34:55,064:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-11 20:34:55,082:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-09-11 20:34:55,082:INFO:Soft dependency imported: xgboost: 3.0.2
+2025-09-11 20:34:55,092:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-11 20:34:55,092:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2025-09-11 20:34:55,428:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-11 20:34:55,446:INFO:Soft dependency imported: xgboost: 3.0.2
+2025-09-11 20:34:55,447:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-11 20:34:55,788:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2025-09-11 20:34:55,807:INFO:Soft dependency imported: xgboost: 3.0.2
+2025-09-11 20:34:55,808:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-11 20:34:55,808:INFO:Engine successfully changes for model 'svm' to 'sklearn'.
+2025-09-11 20:34:56,234:INFO:Soft dependency imported: xgboost: 3.0.2
+2025-09-11 20:34:56,235:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-11 20:34:56,615:INFO:Soft dependency imported: xgboost: 3.0.2
+2025-09-11 20:34:56,617:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-11 20:34:56,627:INFO:Preparing preprocessing pipeline...
+2025-09-11 20:34:56,627:INFO:Set up simple imputation.
+2025-09-11 20:34:56,627:INFO:Set up feature normalization.
+2025-09-11 20:34:58,173:INFO:Finished creating preprocessing pipeline.
+2025-09-11 20:34:58,176:INFO:Pipeline: Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Theta_a1', 'Theta_b1', 'Theta_c1',
+                                             'Theta_a2', 'Theta_b2', 'Theta_c2',
+                                             'action1', 'Action_space1',
+                                             'Action_space2', 'A1_1_1',
+                                             'A1_1_2', 'A1_1_3', 'A1_1_4',
+                                             'A1_1_5', 'A1_1_6', 'A1_1_7',
+                                             'A1_1_8', 'A1_1_9', 'A1_2_1',
+                                             'A1_2_2', 'A1_2_3', 'A1_2_4',
+                                             'A1_2_5', 'A1_2_6', 'A1_2_7',
+                                             'A1_2_8', 'A1_2_9', 'A1_3_1',
+                                             'A1_3_2', 'A1_3_3', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize',
+                 TransformerWrapper(transformer=StandardScaler()))])
+2025-09-11 20:34:58,176:INFO:Creating final display dataframe.
+2025-09-11 20:35:00,818:INFO:Setup _display_container:                     Description             Value
+0                    Session id               791
+1                        Target           action2
+2                   Target type        Regression
+3           Original data shape     (143208, 506)
+4        Transformed data shape     (143208, 506)
+5   Transformed train set shape     (100245, 506)
+6    Transformed test set shape      (42963, 506)
+7              Numeric features               505
+8                    Preprocess              True
+9               Imputation type            simple
+10           Numeric imputation              mean
+11       Categorical imputation              mode
+12                    Normalize              True
+13             Normalize method            zscore
+14               Fold Generator             KFold
+15                  Fold Number                10
+16                     CPU Jobs                -1
+17                      Use GPU             False
+18               Log Experiment             False
+19              Experiment Name  reg-default-name
+20                          USI              0995
+2025-09-11 20:35:01,206:INFO:Soft dependency imported: xgboost: 3.0.2
+2025-09-11 20:35:01,208:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-11 20:35:01,617:INFO:Soft dependency imported: xgboost: 3.0.2
+2025-09-11 20:35:01,619:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-09-11 20:35:01,619:INFO:setup() successfully completed in 11.55s...............
+2025-09-11 20:35:01,619:INFO:Initializing compare_models()
+2025-09-11 20:35:01,619:INFO:compare_models(self=<pycaret.regression.oop.RegressionExperiment object at 0x753f3e331060>, include=['dt', 'rf', 'gbr', 'xgboost'], fold=None, round=4, cross_validation=True, sort=RMSE, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.regression.oop.RegressionExperiment object at 0x753f3e331060>, 'include': ['dt', 'rf', 'gbr', 'xgboost'], 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'RMSE', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.regression.oop.RegressionExperiment'>}, exclude=None)
+2025-09-11 20:35:01,619:INFO:Checking exceptions
+2025-09-11 20:35:01,800:INFO:Preparing display monitor
+2025-09-11 20:35:01,812:INFO:Initializing Decision Tree Regressor
+2025-09-11 20:35:01,812:INFO:Total runtime is 1.4901161193847656e-06 minutes
+2025-09-11 20:35:01,812:INFO:SubProcess create_model() called ==================================
+2025-09-11 20:35:01,812:INFO:Initializing create_model()
+2025-09-11 20:35:01,812:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x753f3e331060>, estimator=dt, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x753f1bd43f70>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-09-11 20:35:01,812:INFO:Checking exceptions
+2025-09-11 20:35:01,812:INFO:Importing libraries
+2025-09-11 20:35:01,812:INFO:Copying training dataset
+2025-09-11 20:35:02,483:INFO:Defining folds
+2025-09-11 20:35:02,483:INFO:Declaring metric variables
+2025-09-11 20:35:02,483:INFO:Importing untrained model
+2025-09-11 20:35:02,484:INFO:Decision Tree Regressor Imported successfully
+2025-09-11 20:35:02,484:INFO:Starting cross validation
+2025-09-11 20:35:02,495:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-09-11 20:35:03,546:WARNING:/home/bentoaz/.local/lib/python3.10/site-packages/pandas/core/arrays/masked.py:62: UserWarning: Pandas requires version '1.3.4' or newer of 'bottleneck' (version '1.3.2' currently installed).
+  from pandas.core import (
+
+2025-09-11 20:35:03,908:WARNING:/home/bentoaz/.local/lib/python3.10/site-packages/pandas/core/arrays/masked.py:62: UserWarning: Pandas requires version '1.3.4' or newer of 'bottleneck' (version '1.3.2' currently installed).
+  from pandas.core import (
+
+2025-09-11 20:35:04,254:WARNING:/home/bentoaz/.local/lib/python3.10/site-packages/pandas/core/arrays/masked.py:62: UserWarning: Pandas requires version '1.3.4' or newer of 'bottleneck' (version '1.3.2' currently installed).
+  from pandas.core import (
+
+2025-09-11 20:35:04,659:WARNING:/home/bentoaz/.local/lib/python3.10/site-packages/pandas/core/arrays/masked.py:62: UserWarning: Pandas requires version '1.3.4' or newer of 'bottleneck' (version '1.3.2' currently installed).
+  from pandas.core import (
+
+2025-09-11 20:35:05,229:WARNING:/home/bentoaz/.local/lib/python3.10/site-packages/pandas/core/arrays/masked.py:62: UserWarning: Pandas requires version '1.3.4' or newer of 'bottleneck' (version '1.3.2' currently installed).
+  from pandas.core import (
+
+2025-09-11 20:35:05,878:WARNING:/home/bentoaz/.local/lib/python3.10/site-packages/pandas/core/arrays/masked.py:62: UserWarning: Pandas requires version '1.3.4' or newer of 'bottleneck' (version '1.3.2' currently installed).
+  from pandas.core import (
+
+2025-09-11 20:35:06,624:WARNING:/home/bentoaz/.local/lib/python3.10/site-packages/pandas/core/arrays/masked.py:62: UserWarning: Pandas requires version '1.3.4' or newer of 'bottleneck' (version '1.3.2' currently installed).
+  from pandas.core import (
+
+2025-09-11 20:35:07,234:WARNING:/home/bentoaz/.local/lib/python3.10/site-packages/pandas/core/arrays/masked.py:62: UserWarning: Pandas requires version '1.3.4' or newer of 'bottleneck' (version '1.3.2' currently installed).
+  from pandas.core import (
+
+2025-09-11 20:35:08,328:WARNING:/home/bentoaz/.local/lib/python3.10/site-packages/pandas/core/arrays/masked.py:62: UserWarning: Pandas requires version '1.3.4' or newer of 'bottleneck' (version '1.3.2' currently installed).
+  from pandas.core import (
+
+2025-09-11 20:35:08,784:WARNING:/home/bentoaz/.local/lib/python3.10/site-packages/pandas/core/arrays/masked.py:62: UserWarning: Pandas requires version '1.3.4' or newer of 'bottleneck' (version '1.3.2' currently installed).
+  from pandas.core import (
+
+2025-09-11 20:35:18,277:INFO:Calculating mean and std
+2025-09-11 20:35:18,288:INFO:Creating metrics dataframe
+2025-09-11 20:35:18,324:INFO:Uploading results into container
+2025-09-11 20:35:18,328:INFO:Uploading model into container now
+2025-09-11 20:35:18,332:INFO:_master_model_container: 1
+2025-09-11 20:35:18,332:INFO:_display_container: 2
+2025-09-11 20:35:18,336:INFO:DecisionTreeRegressor(random_state=791)
+2025-09-11 20:35:18,336:INFO:create_model() successfully completed......................................
+2025-09-11 20:35:19,055:INFO:SubProcess create_model() end ==================================
+2025-09-11 20:35:19,055:INFO:Creating metrics dataframe
+2025-09-11 20:35:19,057:INFO:Initializing Random Forest Regressor
+2025-09-11 20:35:19,057:INFO:Total runtime is 0.28741480509440104 minutes
+2025-09-11 20:35:19,057:INFO:SubProcess create_model() called ==================================
+2025-09-11 20:35:19,057:INFO:Initializing create_model()
+2025-09-11 20:35:19,057:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x753f3e331060>, estimator=rf, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x753f1bd43f70>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-09-11 20:35:19,057:INFO:Checking exceptions
+2025-09-11 20:35:19,057:INFO:Importing libraries
+2025-09-11 20:35:19,057:INFO:Copying training dataset
+2025-09-11 20:35:19,613:INFO:Defining folds
+2025-09-11 20:35:19,613:INFO:Declaring metric variables
+2025-09-11 20:35:19,614:INFO:Importing untrained model
+2025-09-11 20:35:19,614:INFO:Random Forest Regressor Imported successfully
+2025-09-11 20:35:19,614:INFO:Starting cross validation
+2025-09-11 20:35:19,615:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-09-11 20:35:20,288:WARNING:/home/bentoaz/.local/lib/python3.10/site-packages/pandas/core/arrays/masked.py:62: UserWarning: Pandas requires version '1.3.4' or newer of 'bottleneck' (version '1.3.2' currently installed).
+  from pandas.core import (
+
+2025-09-11 20:35:20,542:WARNING:/home/bentoaz/.local/lib/python3.10/site-packages/pandas/core/arrays/masked.py:62: UserWarning: Pandas requires version '1.3.4' or newer of 'bottleneck' (version '1.3.2' currently installed).
+  from pandas.core import (
+
+2025-09-11 20:35:20,884:WARNING:/home/bentoaz/.local/lib/python3.10/site-packages/pandas/core/arrays/masked.py:62: UserWarning: Pandas requires version '1.3.4' or newer of 'bottleneck' (version '1.3.2' currently installed).
+  from pandas.core import (
+
+2025-09-11 20:35:21,272:WARNING:/home/bentoaz/.local/lib/python3.10/site-packages/pandas/core/arrays/masked.py:62: UserWarning: Pandas requires version '1.3.4' or newer of 'bottleneck' (version '1.3.2' currently installed).
+  from pandas.core import (
+
+2025-09-11 20:35:21,874:WARNING:/home/bentoaz/.local/lib/python3.10/site-packages/pandas/core/arrays/masked.py:62: UserWarning: Pandas requires version '1.3.4' or newer of 'bottleneck' (version '1.3.2' currently installed).
+  from pandas.core import (
+
+2025-09-11 20:35:22,617:WARNING:/home/bentoaz/.local/lib/python3.10/site-packages/pandas/core/arrays/masked.py:62: UserWarning: Pandas requires version '1.3.4' or newer of 'bottleneck' (version '1.3.2' currently installed).
+  from pandas.core import (
+
+2025-09-11 20:42:49,887:INFO:Calculating mean and std
+2025-09-11 20:42:49,893:INFO:Creating metrics dataframe
+2025-09-11 20:42:49,909:INFO:Uploading results into container
+2025-09-11 20:42:49,923:INFO:Uploading model into container now
+2025-09-11 20:42:49,926:INFO:_master_model_container: 2
+2025-09-11 20:42:49,926:INFO:_display_container: 2
+2025-09-11 20:42:49,931:INFO:RandomForestRegressor(n_jobs=-1, random_state=791)
+2025-09-11 20:42:49,931:INFO:create_model() successfully completed......................................
+2025-09-11 20:42:50,370:INFO:SubProcess create_model() end ==================================
+2025-09-11 20:42:50,370:INFO:Creating metrics dataframe
+2025-09-11 20:42:50,375:INFO:Initializing Gradient Boosting Regressor
+2025-09-11 20:42:50,375:INFO:Total runtime is 7.809389714399973 minutes
+2025-09-11 20:42:50,375:INFO:SubProcess create_model() called ==================================
+2025-09-11 20:42:50,375:INFO:Initializing create_model()
+2025-09-11 20:42:50,375:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x753f3e331060>, estimator=gbr, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x753f1bd43f70>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-09-11 20:42:50,375:INFO:Checking exceptions
+2025-09-11 20:42:50,375:INFO:Importing libraries
+2025-09-11 20:42:50,375:INFO:Copying training dataset
+2025-09-11 20:42:51,018:INFO:Defining folds
+2025-09-11 20:42:51,018:INFO:Declaring metric variables
+2025-09-11 20:42:51,018:INFO:Importing untrained model
+2025-09-11 20:42:51,018:INFO:Gradient Boosting Regressor Imported successfully
+2025-09-11 20:42:51,019:INFO:Starting cross validation
+2025-09-11 20:42:51,020:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-09-11 20:51:13,809:INFO:Calculating mean and std
+2025-09-11 20:51:13,810:INFO:Creating metrics dataframe
+2025-09-11 20:51:13,811:INFO:Uploading results into container
+2025-09-11 20:51:13,811:INFO:Uploading model into container now
+2025-09-11 20:51:13,812:INFO:_master_model_container: 3
+2025-09-11 20:51:13,812:INFO:_display_container: 2
+2025-09-11 20:51:13,812:INFO:GradientBoostingRegressor(random_state=791)
+2025-09-11 20:51:13,812:INFO:create_model() successfully completed......................................
+2025-09-11 20:51:13,876:INFO:SubProcess create_model() end ==================================
+2025-09-11 20:51:13,876:INFO:Creating metrics dataframe
+2025-09-11 20:51:13,878:INFO:Initializing Extreme Gradient Boosting
+2025-09-11 20:51:13,878:INFO:Total runtime is 16.201099189122516 minutes
+2025-09-11 20:51:13,878:INFO:SubProcess create_model() called ==================================
+2025-09-11 20:51:13,878:INFO:Initializing create_model()
+2025-09-11 20:51:13,878:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x753f3e331060>, estimator=xgboost, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x753f1bd43f70>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-09-11 20:51:13,878:INFO:Checking exceptions
+2025-09-11 20:51:13,878:INFO:Importing libraries
+2025-09-11 20:51:13,878:INFO:Copying training dataset
+2025-09-11 20:51:14,400:INFO:Defining folds
+2025-09-11 20:51:14,401:INFO:Declaring metric variables
+2025-09-11 20:51:14,401:INFO:Importing untrained model
+2025-09-11 20:51:14,403:INFO:Extreme Gradient Boosting Imported successfully
+2025-09-11 20:51:14,403:INFO:Starting cross validation
+2025-09-11 20:51:14,404:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-09-11 20:51:56,730:INFO:Calculating mean and std
+2025-09-11 20:51:56,731:INFO:Creating metrics dataframe
+2025-09-11 20:51:56,732:INFO:Uploading results into container
+2025-09-11 20:51:56,732:INFO:Uploading model into container now
+2025-09-11 20:51:56,733:INFO:_master_model_container: 4
+2025-09-11 20:51:56,733:INFO:_display_container: 2
+2025-09-11 20:51:56,733:INFO:XGBRegressor(base_score=None, booster='gbtree', callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device='cpu', early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=-1, num_parallel_tree=None, ...)
+2025-09-11 20:51:56,733:INFO:create_model() successfully completed......................................
+2025-09-11 20:51:56,803:INFO:SubProcess create_model() end ==================================
+2025-09-11 20:51:56,803:INFO:Creating metrics dataframe
+2025-09-11 20:51:56,808:WARNING:/home/bentoaz/.local/lib/python3.10/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:323: FutureWarning: Styler.applymap has been deprecated. Use Styler.map instead.
+  master_display_.apply(
+
+2025-09-11 20:51:56,809:INFO:Initializing create_model()
+2025-09-11 20:51:56,809:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x753f3e331060>, estimator=DecisionTreeRegressor(random_state=791), fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-09-11 20:51:56,809:INFO:Checking exceptions
+2025-09-11 20:51:56,809:INFO:Importing libraries
+2025-09-11 20:51:56,810:INFO:Copying training dataset
+2025-09-11 20:51:57,337:INFO:Defining folds
+2025-09-11 20:51:57,337:INFO:Declaring metric variables
+2025-09-11 20:51:57,337:INFO:Importing untrained model
+2025-09-11 20:51:57,337:INFO:Declaring custom model
+2025-09-11 20:51:57,337:INFO:Decision Tree Regressor Imported successfully
+2025-09-11 20:51:57,338:INFO:Cross validation set to False
+2025-09-11 20:51:57,338:INFO:Fitting Model
+2025-09-11 20:52:01,760:INFO:DecisionTreeRegressor(random_state=791)
+2025-09-11 20:52:01,760:INFO:create_model() successfully completed......................................
+2025-09-11 20:52:01,823:INFO:_master_model_container: 4
+2025-09-11 20:52:01,823:INFO:_display_container: 2
+2025-09-11 20:52:01,824:INFO:DecisionTreeRegressor(random_state=791)
+2025-09-11 20:52:01,824:INFO:compare_models() successfully completed......................................
+2025-09-11 20:52:01,841:INFO:Initializing finalize_model()
+2025-09-11 20:52:01,842:INFO:finalize_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x753f3e331060>, estimator=DecisionTreeRegressor(random_state=791), fit_kwargs=None, groups=None, model_only=False, experiment_custom_tags=None)
+2025-09-11 20:52:01,842:INFO:Finalizing DecisionTreeRegressor(random_state=791)
+2025-09-11 20:52:02,240:INFO:Initializing create_model()
+2025-09-11 20:52:02,240:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x753f3e331060>, estimator=DecisionTreeRegressor(random_state=791), fold=None, round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, model_only=False, return_train_score=False, error_score=0.0, kwargs={})
+2025-09-11 20:52:02,240:INFO:Checking exceptions
+2025-09-11 20:52:02,240:INFO:Importing libraries
+2025-09-11 20:52:02,240:INFO:Copying training dataset
+2025-09-11 20:52:02,371:INFO:Defining folds
+2025-09-11 20:52:02,371:INFO:Declaring metric variables
+2025-09-11 20:52:02,371:INFO:Importing untrained model
+2025-09-11 20:52:02,371:INFO:Declaring custom model
+2025-09-11 20:52:02,371:INFO:Decision Tree Regressor Imported successfully
+2025-09-11 20:52:02,373:INFO:Cross validation set to False
+2025-09-11 20:52:02,373:INFO:Fitting Model
+2025-09-11 20:52:07,918:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Theta_a1', 'Theta_b1', 'Theta_c1',
+                                             'Theta_a2', 'Theta_b2', 'Theta_c2',
+                                             'action1', 'Action_space1',
+                                             'Action_space2', 'A1_1_1',
+                                             'A1_1_2', 'A1_1_3', 'A1_1_4',
+                                             'A1_1_5', 'A1_1_6', 'A1_1_7',
+                                             'A1_1_8', 'A1_1_9', 'A1_2_1',
+                                             'A1_2_2', 'A1_2_3', 'A1_2_4',
+                                             'A1_2_5', 'A1_2_6', 'A1_2_7',
+                                             'A1_2_8', 'A1_2_9', 'A1_3_1',
+                                             'A1_3_2', 'A1_3_3', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', DecisionTreeRegressor(random_state=791))])
+2025-09-11 20:52:07,918:INFO:create_model() successfully completed......................................
+2025-09-11 20:52:07,964:INFO:_master_model_container: 4
+2025-09-11 20:52:07,964:INFO:_display_container: 2
+2025-09-11 20:52:07,968:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Theta_a1', 'Theta_b1', 'Theta_c1',
+                                             'Theta_a2', 'Theta_b2', 'Theta_c2',
+                                             'action1', 'Action_space1',
+                                             'Action_space2', 'A1_1_1',
+                                             'A1_1_2', 'A1_1_3', 'A1_1_4',
+                                             'A1_1_5', 'A1_1_6', 'A1_1_7',
+                                             'A1_1_8', 'A1_1_9', 'A1_2_1',
+                                             'A1_2_2', 'A1_2_3', 'A1_2_4',
+                                             'A1_2_5', 'A1_2_6', 'A1_2_7',
+                                             'A1_2_8', 'A1_2_9', 'A1_3_1',
+                                             'A1_3_2', 'A1_3_3', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', DecisionTreeRegressor(random_state=791))])
+2025-09-11 20:52:07,968:INFO:finalize_model() successfully completed......................................
+2025-09-11 20:52:08,018:INFO:Initializing save_model()
+2025-09-11 20:52:08,018:INFO:save_model(model=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Theta_a1', 'Theta_b1', 'Theta_c1',
+                                             'Theta_a2', 'Theta_b2', 'Theta_c2',
+                                             'action1', 'Action_space1',
+                                             'Action_space2', 'A1_1_1',
+                                             'A1_1_2', 'A1_1_3', 'A1_1_4',
+                                             'A1_1_5', 'A1_1_6', 'A1_1_7',
+                                             'A1_1_8', 'A1_1_9', 'A1_2_1',
+                                             'A1_2_2', 'A1_2_3', 'A1_2_4',
+                                             'A1_2_5', 'A1_2_6', 'A1_2_7',
+                                             'A1_2_8', 'A1_2_9', 'A1_3_1',
+                                             'A1_3_2', 'A1_3_3', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', DecisionTreeRegressor(random_state=791))]), model_name=out/action2/pycaret/model, prep_pipe_=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Theta_a1', 'Theta_b1', 'Theta_c1',
+                                             'Theta_a2', 'Theta_b2', 'Theta_c2',
+                                             'action1', 'Action_space1',
+                                             'Action_space2', 'A1_1_1',
+                                             'A1_1_2', 'A1_1_3', 'A1_1_4',
+                                             'A1_1_5', 'A1_1_6', 'A1_1_7',
+                                             'A1_1_8', 'A1_1_9', 'A1_2_1',
+                                             'A1_2_2', 'A1_2_3', 'A1_2_4',
+                                             'A1_2_5', 'A1_2_6', 'A1_2_7',
+                                             'A1_2_8', 'A1_2_9', 'A1_3_1',
+                                             'A1_3_2', 'A1_3_3', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize',
+                 TransformerWrapper(transformer=StandardScaler()))]), verbose=True, use_case=MLUsecase.REGRESSION, kwargs={})
+2025-09-11 20:52:08,018:INFO:Adding model into prep_pipe
+2025-09-11 20:52:08,018:WARNING:Only Model saved as it was a pipeline.
+2025-09-11 20:52:08,035:INFO:out/action2/pycaret/model.pkl saved in current working directory
+2025-09-11 20:52:08,038:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Theta_a1', 'Theta_b1', 'Theta_c1',
+                                             'Theta_a2', 'Theta_b2', 'Theta_c2',
+                                             'action1', 'Action_space1',
+                                             'Action_space2', 'A1_1_1',
+                                             'A1_1_2', 'A1_1_3', 'A1_1_4',
+                                             'A1_1_5', 'A1_1_6', 'A1_1_7',
+                                             'A1_1_8', 'A1_1_9', 'A1_2_1',
+                                             'A1_2_2', 'A1_2_3', 'A1_2_4',
+                                             'A1_2_5', 'A1_2_6', 'A1_2_7',
+                                             'A1_2_8', 'A1_2_9', 'A1_3_1',
+                                             'A1_3_2', 'A1_3_3', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', DecisionTreeRegressor(random_state=791))])
+2025-09-11 20:52:08,038:INFO:save_model() successfully completed......................................
+2025-09-11 20:52:11,517:WARNING:/home/bentoaz/scenario_visualization/scenario-visualization-toolkit-v1.0.4-dark/dataset.py:197: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap.summary_plot(shap_values, df, show=False)
+
+2025-09-11 20:52:21,549:WARNING:/home/bentoaz/scenario_visualization/scenario-visualization-toolkit-v1.0.4-dark/dataset.py:195: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap.summary_plot(shap_values, df, show=False, plot_type="bar")
+
