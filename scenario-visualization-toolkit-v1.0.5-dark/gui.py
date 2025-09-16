@@ -599,6 +599,10 @@ class GUI:
 
         plt.close("all")
         self.dataset.bar_plot(max_display=top_n)
+
+        # change default labels
+        plt.xlabel("Average SHAP Value Magnitude") 
+
         plt.savefig("%s/bar.png" % shap_dir, bbox_inches = "tight")
         print("XAI plots saved!")
         return
