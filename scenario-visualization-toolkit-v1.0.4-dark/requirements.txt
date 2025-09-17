@@ -1,5 +1,0 @@
-freesimplegui
-pycaret
-shap
-xgboost
-pyarrow
