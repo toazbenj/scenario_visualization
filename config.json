@@ -1,6 +1,6 @@
 {
-    "dataset-fn": "/home/bentoaz/scenario_visualization/cost_stats_sca_truncated.feather",
-    "Browse": "/home/bentoaz/scenario_visualization/cost_stats_sca_truncated.feather",
+    "dataset-fn": "/home/bentoaz/race_simulation/data_processing/version2_data/vector_cost/cost_stats_vec.feather",
+    "Browse": "/home/bentoaz/race_simulation/data_processing/version2_data/vector_cost/cost_stats_vec.feather",
     "remove-extra-headers": true,
     "label": "action2",
     "cb-dt": true,
@@ -8,7 +8,7 @@
     "cb-gbr": true,
     "cb-xgboost": true,
     "cb-lightgbm": false,
-    "xai-top-n": "5",
+    "xai-top-n": "10",
     "cell-width": "1",
     "lattice-trim": ".0",
     "lattice-marker-type": ",",

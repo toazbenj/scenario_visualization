@@ -4,9 +4,8 @@ import time
 import os
 
 # Load your CSV once
-csv_path = '/home/bentoaz/scenario_visualization/out/scalar_take2/action2/shap/baseline_3.758667.csv'
-feather_path = '/home/bentoaz/scenario_visualization/out/scalar_take2/action2/shap/baseline.feather'
-
+csv_path = '/home/bentoaz/scenario_visualization/out/action2/shap/baseline_4.551737.csv'
+feather_path = '/home/bentoaz/scenario_visualization/out/action2/shap/baseline.feather'
 df = pd.read_csv(csv_path)
 
 # Test Feather
