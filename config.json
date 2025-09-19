@@ -1,8 +1,8 @@
 {
-    "dataset-fn": "/home/bentoaz/scenario_visualization/combined_stats_sca_cleaned.feather",
-    "Browse": "/home/bentoaz/scenario_visualization/combined_stats_sca_cleaned.feather",
+    "dataset-fn": "/home/bentoaz/scenario_visualization/data/scalar/cost_stats_sca_cleaned_min_dist.feather",
+    "Browse": "/home/bentoaz/scenario_visualization/data/scalar/cost_stats_sca_cleaned_min_dist.feather",
     "remove-extra-headers": true,
-    "label": "Passes P2",
+    "label": "Min_Distance",
     "cb-dt": true,
     "cb-rf": true,
     "cb-gbr": true,
