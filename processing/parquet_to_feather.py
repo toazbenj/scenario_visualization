@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Input and output paths
-input_parquet = "combined_stats_vec_cleaned.parquet"
-output_feather = "combined_stats_vec_cleaned.feather"
+input_parquet = "data/vector/cost_stats_vec_cleaned_min_dist.parquet"
+output_feather = "data/vector/cost_stats_vec_cleaned_min_dist.feather"
 
 # Read parquet
 df = pd.read_parquet(input_parquet)
