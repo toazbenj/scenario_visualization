@@ -1,8 +1,8 @@
 {
-    "dataset-fn": "/home/bentoaz/race_simulation/data_processing/version2_data/vector_cost/cost_stats_vec.feather",
-    "Browse": "/home/bentoaz/race_simulation/data_processing/version2_data/vector_cost/cost_stats_vec.feather",
+    "dataset-fn": "/home/bentoaz/scenario_visualization/combined_stats_sca_cleaned.feather",
+    "Browse": "/home/bentoaz/scenario_visualization/combined_stats_sca_cleaned.feather",
     "remove-extra-headers": true,
-    "label": "action2",
+    "label": "Passes P2",
     "cb-dt": true,
     "cb-rf": true,
     "cb-gbr": true,
