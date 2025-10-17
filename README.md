@@ -39,8 +39,6 @@ Citation:
 
 3. **Install Required Dependencies**:
 
-   Ensure that Python and Pygame are installed on your system. You can install Pygame using pip:
-
    ```bash
    pip install -r requirements.txt
    ```
