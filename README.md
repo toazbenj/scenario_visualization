@@ -8,6 +8,21 @@
 This repository is a companion repo to [Race Simulation](https://github.com/toazbenj/race_simulation) and includes additional resources for visualizing data generated from [SEMBAS](https://github.com/Thomj-Dev/SEMBAS/tree/example-v0.4.x-race_simulation) and [SHAP](https://github.com/shap/shap).
 All the code used to generate the plots in "Vector Cost Behavioral Planning for Autonomous Vehicles with Contemporary Validation Strategies" is included. 
 
+Citation:
+```
+@inproceedings{VectorCostBimatrix,
+  title={Vector Cost Bimatrix Games with Applications to Autonomous Racing}, 
+  author={Benjamin R. Toaz and Shaunak D. Bopardikar},
+  year={2025},
+  booktitle={Proceedings of the Modeling, Estimation and Control Conference},
+  month = {October},
+  year={2025},
+  address={Pittsburgh, PA, USA},
+  publisher={AACC},
+  url={https://arxiv.org/abs/2507.05171},
+}
+```
+
 ## Installation
 
 1. **Clone the Repository**:
