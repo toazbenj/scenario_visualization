@@ -6,7 +6,7 @@
 </p>
 
 This repository is a companion repo to [Race Simulation](https://github.com/toazbenj/race_simulation) and includes additional resources for visualizing data generated from [SEMBAS](https://github.com/Thomj-Dev/SEMBAS/tree/example-v0.4.x-race_simulation) and [SHAP](https://github.com/shap/shap).
-All the code used to generate the plots in "Vector Cost Behavioral Planning for Autonomous Vehicles with Contemporary Validation Strategies" is included.
+All the code used to generate the plots in "Vector Cost Behavioral Planning for Autonomous Vehicles with Contemporary Validation Strategies" is included. 
 
 ## Installation
 
