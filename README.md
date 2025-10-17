@@ -1,8 +1,8 @@
 # Scenario Visualization 
  
 <p align="center">
-  <img src="matrix.png" alt="Image 1" width="45%">
-  <img src="grid_boundary.png" alt="Image 2" width="45%">
+  <img src="matrix.png" alt="Image 1" width="46%">
+  <img src="grid_boundary.png" alt="Image 2" width="44.5%">
 </p>
 
 This repository is a companion repo to [Race Simulation](https://github.com/toazbenj/race_simulation) and includes additional resources for visualizing data generated from [SEMBAS](https://github.com/Thomj-Dev/SEMBAS/tree/example-v0.4.x-race_simulation) and [SHAP](https://github.com/shap/shap).
