@@ -22,6 +22,19 @@ journal = {ACM J. Auton. Transport. Syst.},
 month = jun,
 }
 ```
+```
+@inproceedings{VectorCostBimatrix,
+  title={Vector Cost Bimatrix Games with Applications to Autonomous Racing}, 
+  author={Benjamin R. Toaz and Shaunak D. Bopardikar},
+  year={2025},
+  booktitle={Proceedings of the Modeling, Estimation and Control Conference},
+  month = {October},
+  year={2025},
+  address={Pittsburgh, PA, USA},
+  publisher={AACC},
+  url={https://arxiv.org/abs/2507.05171},
+}
+```
 
 ## Installation
 
