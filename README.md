@@ -10,16 +10,16 @@ All the code and data used to generate the plots in "Vector Cost Behavioral Plan
 
 Citation:
 ```
-@inproceedings{VectorCostBimatrix,
-  title={Vector Cost Bimatrix Games with Applications to Autonomous Racing}, 
-  author={Benjamin R. Toaz and Shaunak D. Bopardikar},
-  year={2025},
-  booktitle={Proceedings of the Modeling, Estimation and Control Conference},
-  month = {October},
-  year={2025},
-  address={Pittsburgh, PA, USA},
-  publisher={AACC},
-  url={https://arxiv.org/abs/2507.05171},
+@article{10.1145/3746286,
+author = {Goss, Quentin and Pate, Williams Clay and undefinedlhan Akba\c{s}, Mustafa},
+title = {An Integrated Framework for Scenario-Based Safety Validation and Explainability of Autonomous Vehicles},
+year = {2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3746286},
+doi = {10.1145/3746286},
+journal = {ACM J. Auton. Transport. Syst.},
+month = jun,
 }
 ```
 
